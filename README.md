@@ -1,4 +1,5 @@
 📘 Airbnb Data Engineering Project
+
 🚀 Overview
 
 This project demonstrates an end-to-end data engineering pipeline built on modern cloud and analytics tools. The goal of the project is to ingest raw Airbnb data, transform it into structured and analytics-ready datasets, and model it using industry-standard practices such as star schema design and slowly changing dimensions.
@@ -48,6 +49,7 @@ Sources to track lineage from raw data
 Macros to reuse logic across transformations
 Incremental models to process only new or updated data
 Tests to ensure data quality
+
 🥉 Bronze Layer
 
 The Bronze layer represents raw data ingested from Snowflake staging tables. At this stage, minimal transformation is applied, and the primary goal is to maintain a reliable copy of the source data.
